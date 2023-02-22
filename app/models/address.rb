@@ -1,3 +1,3 @@
 class Address < ApplicationRecord
-  belongs_to :client, inverse_of: :address
+  belongs_to :client
 end
